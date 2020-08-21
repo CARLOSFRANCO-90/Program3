@@ -42,6 +42,14 @@ public class Universidad {
 		return mayorPago;
 		
 	}
-	
+	public float comparacionPago() {
+		float pago=0;
+		for(int i=0; i<cantidad; i++) {
+			pago = pago - arrEstudiantes[i].ctaXPagar;
+				
+			}
+		pago = pago / cantidad;
+		return pago;
+	}
 	
 }

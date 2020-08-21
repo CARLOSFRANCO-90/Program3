@@ -15,14 +15,16 @@ public class Program {
 		Estudiantes P3 = new Estudiantes("Juan", 2000);
 		Manizales.agregarEstudiante(P3);
 				
-		Estudiantes P4 = new Estudiantes("Jose", 3000);
+		Estudiantes P4 = new Estudiantes("Jose", 3500);
 		Manizales.agregarEstudiante(P4);
 		
 		
 		float promedio = Manizales.calcularPagos();	
-		System.out.println("Promedio: " + promedio);
+		System.out.println(" Promedio: " + promedio);
+		
 		float comparaPago = Manizales.estudianteMayorPago();
-		System.out.println(" Estudiante con mayor pago fue : " + comparaPago);
+		System.out.println(" Estudiante con mayor pago fue : $ " + comparaPago);
+		
 	}
 
 }
